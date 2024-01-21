@@ -1,0 +1,9 @@
+/* Bluemode.css */
+.style.blue {
+    color: blue; /* Ensures text is blue */
+  }
+  
+.style.is-blue {
+    color: pink; /* これは blue の状態であれば pink になります */
+  }
+  
