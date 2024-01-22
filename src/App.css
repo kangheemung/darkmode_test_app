@@ -20,6 +20,22 @@
 .header{
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  text-align: center;
 }
 
+/* Static styles for all links */
+.nav-link-custom {
+  text-decoration: none; /* Remove underline from links */
+  margin: 0 10px;        /* Set margins around each link */
+}
 
+/* Dynamic styles for dark mode */
+.dark-mode .nav-link-custom {
+  color: white;
+}
+
+/* Dynamic styles for light mode */
+.light-mode .nav-link-custom {
+  color: black;
+}
