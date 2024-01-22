@@ -7,7 +7,7 @@ function Toggle() {
       }
   return (
     <div>
-     <button onClick={handleToggleVisibility}>Show/Hide Text</button> 
+     <button onClick={ handleToggleVisibility }>Show/Hide Text</button> 
      {isVisible && <p>クリックしたら現れます。</p>}
     </div>
   )
