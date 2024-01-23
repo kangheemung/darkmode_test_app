@@ -7,6 +7,7 @@ function ColorSwitcher() {
       }
   return (
     <div style={{ backgroundColor: bgColor, width: '500px', height: '500px'}}>
+      <p>選択によって背景色が変わります。</p>
       <select onChange={handleColorChange}>
         <option value="">Select a color</option>
         <option value="red">Red</option>

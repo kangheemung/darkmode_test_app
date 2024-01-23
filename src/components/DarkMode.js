@@ -16,10 +16,13 @@ function DarkMode({ dark, setDark }) {
         <Nav className="me-auto">
           <Nav.Link as={Link} to="/" className="nav-link-custom">HOME</Nav.Link>
           <Nav.Link as={Link} to="/todo" className="nav-link-custom">todo</Nav.Link>
+          <Nav.Link as={Link} to="/toggle" className="nav-link-custom">Toggle</Nav.Link>
           <Nav.Link as={Link} to="/colorSwitcher" className="nav-link-custom">ColorSwitcher</Nav.Link>
+          <Nav.Link as={Link} to="/bluemode" className="nav-link-custom">Bluemode</Nav.Link>
           <Nav.Link as={Link} to="/searchFilter" className="nav-link-custom">SearchFilter</Nav.Link>
           <Nav.Link as={Link} to="/Field" className="nav-link-custom">Field</Nav.Link>
           <Nav.Link as={Link} to="/Count" className="nav-link-custom">Count</Nav.Link>
+          <Nav.Link as={Link} to="/Drag" className="nav-link-custom">Drag</Nav.Link>
         </Nav>
       </Navbar>
       <button onClick={() => setDark(!dark)}>{dark ? "light-mode" : "dark-mode"}</button>
